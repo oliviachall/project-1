@@ -1,0 +1,692 @@
+a:link {
+    color: #FFF;
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+}
+
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+}
+
+a:active {
+    color: #FFF;
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+p {
+    font-family: Myriad Pro;
+    color: #777777;
+    max-width: 100%;
+    height: auto;
+}
+
+h5 {
+    font-family: Myriad Pro;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 7pt;
+    font-size: larger;
+    
+}
+
+hr {
+    color: #eeeeee;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: Myriad Pro;
+    color: #FFF;
+    letter-spacing: 1px;
+    
+}
+
+h2 {
+    font-family: Myriad Pro;
+    color: #2498f4;
+    letter-spacing: 1px;
+ 
+    
+}
+
+h3 {
+    font-family: Myriad Pro;
+    letter-spacing: 1px;
+    color: #2498f4;
+    display: inline-block;
+   
+}
+
+h4 {
+    font-family: Myriad Pro;
+    letter-spacing: 1px;
+    color: #2498f4;
+    display: inline-block;
+    
+   
+}
+
+
+
+h6 {
+    font-family: Myriad Pro;
+    color: #777777;
+    line-height: 2pt;
+   
+}
+
+#navcontainer {
+    color: #FFF;
+    font-family: Myriad Pro;
+    letter-spacing: 1px;
+    padding: 1em 2em 0.25em 0;
+    text-align: right;
+    background: rgb(36,152,244); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(36,152,244,1) 1%, rgba(29,134,217,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(36,152,244,1)), color-stop(100%,rgba(29,134,217,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(36,152,244,1) 1%,rgba(29,134,217,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(36,152,244,1) 1%,rgba(29,134,217,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(36,152,244,1) 1%,rgba(29,134,217,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(36,152,244,1) 1%,rgba(29,134,217,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2498f4', endColorstr='#1d86d9',GradientType=0 ); /* IE6-9 */
+    /*Gradient code from http://www.colorzilla.com/gradient-editor/*/
+max-width: 100%;
+    height: auto;
+}
+
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 10px 0px 0px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.rollovers {
+    color: #FFF;
+    padding: 2em 0 0 0;
+    text-align: center;
+    font: Myriad Pro;
+    background: rgb(17,63,100); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(17,63,100,1) 1%, rgba(20,80,131,1) 72%, rgba(17,63,100,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(17,63,100,1)), color-stop(72%,rgba(20,80,131,1)), color-stop(100%,rgba(17,63,100,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(17,63,100,1) 1%,rgba(20,80,131,1) 72%,rgba(17,63,100,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(17,63,100,1) 1%,rgba(20,80,131,1) 72%,rgba(17,63,100,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(17,63,100,1) 1%,rgba(20,80,131,1) 72%,rgba(17,63,100,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(17,63,100,1) 1%,rgba(20,80,131,1) 72%,rgba(17,63,100,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#113f64', endColorstr='#113f64',GradientType=0 ); /* IE6-9 */	
+max-width: 100%;
+    height: auto;
+}
+
+.dashboard {
+    background: #33cc66;
+    border-radius: 0.5em;
+    margin: 1.5em 0 0 0;
+    padding: 0 0 0 3em;
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box {
+     border-radius: 2px;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 160px;
+    float: right;
+    display: inline-block;
+    font-family: Myriad Pro;
+    background: #FFF;
+    margin: 1.5em 2em 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.gradient-back {
+    border-top: 1px solid #eeeeee;
+    margin-top: 1em;
+    border-radius: 10px;
+    background: rgb(246,246,246); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,246,246,1) 0%, rgba(246,246,246,1) 79%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(79%,rgba(246,246,246,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 79%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 79%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 79%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(246,246,246,1) 0%,rgba(246,246,246,1) 79%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	
+}
+
+
+.main-body {
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    margin: 1em 2em 2em 2em;
+    background: #FFF;
+    box-shadow: -0.5px 0.5px 0.5px #cccccc;
+    padding: 0 1em 0 1em;
+    
+}
+
+.announcement-left {
+    padding: 1em 1em .95em 1.5em;
+    border-right: 1px solid #eeeeee;
+    
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.announcement-center {
+    padding: 2em 4em .75em 2em;
+    border-right: 1px solid #eeeeee;
+    
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.announcement-right {
+    padding: 2em 1.5em 1.2em 1em;
+    
+    display: inline-block;
+   
+    max-width: 100%;
+    height: auto;
+}
+
+.white-circle1 {
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+    border: 1px solid #cbcbcb;
+    box-shadow: 0.5px 0.5px 8px #cccccc;
+    color: #fe7f13;
+    font-family: Myriad Pro;
+    padding: .2em 0 0 0;
+    float: right;
+    background: #FFF;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.white-circle2 {
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+    border: 1px solid #cbcbcb;
+    box-shadow: 0.5px 0.5px 8px #cccccc;
+    color: #fe7f13;
+    font-family: Myriad Pro;
+    padding: .2em 0 0 0;
+    float: left;
+    background: #FFF;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1em 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.tasks {
+    padding: 0 1em 2em 1em;
+    width: 25em;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.recommendations {
+    padding: 0 0 0 1em;
+    width: 25em;
+    max-width: 100%;
+    height: auto;
+}
+
+.rec-text {
+    padding: 1em 0 0 2em;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.analytics {
+    display: inline-block;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 1em 0 2em;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.ACTIVITY {
+    padding:1em 0 1em 0;
+    width: 28em;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.channels {
+   display: inline-block;
+   padding: 0 0 0 2em;
+   margin: 0 0 0 1em;
+   max-width: 100%;
+   height: auto;
+}
+
+.circle-graph1 {
+    padding: 0 3em 0 2em;
+    float: right;
+    display: inline-block;
+    margin: 1em 0 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.horizontal-checklist {
+    float: left;
+    padding: 1.5em 0 3em 3em;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.orange-check {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.gray-square {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    float: left;
+    padding: .2em 0 0 .15em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.facebook {
+    height: 1.5em;
+    width: 5.5em;
+    background: #114570;
+    border-radius: 3px;
+    color: #FFF;
+    font-family: Myriad Pro;
+    padding: .15em 0 0 .4em;
+    float: left;
+    display: inline-block;
+    margin-left: .5em;
+    max-width: 100%;
+    height: auto;
+}
+
+.twitter {
+    height: 1.5em;
+    width: 4.5em;
+    background: #2298f4;
+    border-radius: 3px;
+    color: #FFF;
+    font-family: Myriad Pro;
+    padding: .15em 0 0 .4em;
+    float: left;
+    display: inline-block;
+    margin-left: .5em;
+    max-width: 100%;
+    height: auto;
+}
+
+.foursquare {
+    height: 1.5em;
+    width: 6.5em;
+    background: #3a599b;
+    border-radius: 3px;
+    color: #FFF;
+    font-family: Myriad Pro;
+    padding: .15em 0 0 .4em;
+    float: left;
+    display: inline-block;
+    margin-left: .5em;
+    max-width: 100%;
+    height: auto;
+}
+
+.google {
+    height: 1.5em;
+    width: 5em;
+    background: #31cc66;
+    border-radius: 3px;
+    color: #FFF;
+    font-family: Myriad Pro;
+    padding: .15em 0 0 .4em;
+    float: left;
+    display: inline-block;
+    margin-left: .5em;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.green-paper {
+    padding: 1em 0 0 0;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.green-check {
+    float: left;
+    padding: 1em 0 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.green-lightbulb {
+    padding: 1em 0 0 0;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.date-box {
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 160px;
+    float: right;
+    display: inline-block;
+    font-family: Myriad Pro;
+    color: #777777;
+    max-width: 100%;
+    height: auto;
+}
+
+.gray-circle {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    background: #cccccc;
+    color: #FFF;
+    font-family: Myriad Pro;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: .4em 0 0 0;
+    display: inline-block;
+    max-width: 100%;
+    
+}
+
+.green-circle {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    background: #32cc66;
+    color: #FFF;
+    font-family: Myriad Pro;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: .4em 0 0 0;
+    display: inline-block;
+    max-width: 100%;
+    
+}
+
+.gray-box {
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    width: 60px;
+    height: 30px;
+    padding: .2em 0 0 .3em;
+    float: right;
+    color; #cccccc;
+    max-width: 100%;
+    height: auto;
+}
+
+.task1 {
+    margin: 6em 0 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.pie-chart1 {
+    padding: 0 0 1em 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.box-shape {
+    width: 15em;
+    height: 15em;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #cccccc;
+    display: inline-block;
+    position: relative;
+    overflow: visible;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-box {
+    display: inline-block;
+    padding: 4em 0 2em 4em;
+    max-width: 100%;
+    height: auto;
+}
+
+.customer-box {
+    display: inline-block;
+    padding: 4em 0 2em 5em;
+    max-width: 100%;
+    height: auto;
+}
+
+.people-boxes {
+    display: inline-block;
+    border-bottom: 1px solid #eeeeee;
+    max-width: 100%;
+    height: auto;
+}
+
+.blue-box {
+    background: #2394ee;
+    width: 15em;
+    height: 4em;
+    margin-top: -1em;
+    display: inline-block;
+    color: #FFF;
+    font-family: Myriad Pro;
+    padding: 1em 0 0 4em;
+    max-width: 100%;
+    height: auto;
+}
+
+.slider {
+	display: inline-block;
+	border-bottom: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	float: left;
+	max-width: 100%;
+	height: auto;
+}
+
+.blue-slider-box {
+	background: #2394ee;
+	height: 10em;
+	width: 40em;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 1em 1em 1em 1em;
+	color: #FFF;
+	padding: 2em 2em 2em 2em;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.bottom-blue-box {
+	background: #2394ee;
+	
+	width: 100%;	
+	
+}
+
+.bottom-container {
+	background: #2394ee;
+	
+	width: 100%;
+	height: auto;
+}
+
+
+.white-box {
+	height: 11.5em;
+	width: 100%;
+	background: #FFF;
+	border-radius: 4px;
+	margin: 1.75em 0 1.5em 0;
+	position: relative;
+	
+}
+
+.green-text-box {
+	background: #33cc66;
+	color: #FFF;
+	font-family: Myriad Pro;
+	height: 2em;
+	width: 90%;
+	position: absolute;
+	padding: .4em 0 0 2.5em;
+	border-radius: 4px;
+	margin: 4.5em 0 0 1.1em;
+	max-width: 100%;
+	height: auto;
+}
+
+.green-text {
+	color: #33cc66;
+	font-family: Myriad Pro;
+	position: absolute;
+	height: 4em;
+	width: 90%;
+	font-size: large;
+	text-align: right;
+	padding: 3em 0 0 0;
+	line-height: 1em;
+	max-width: 100%;
+	height: auto;
+}
+
+.orange-text {
+	color: #fe7f13;
+	font-family: Myriad Pro;
+	position: absolute;
+	height: 4em;
+	width: 90%;
+	font-size: large;
+	line-height: 1.5em;
+	padding: 3em 0 0 1em;
+	max-width: 100%;
+	height: auto;
+}
+
+.footer {
+	height: 4em;
+	width: 100%;
+	border-top: 1px solid #eeeeee;
+	margin: 3em 0 0 0;
+	box-shadow: 0 0 2em #e2e2e2;
+	background: #f4f4f4;
+	max-width: 100%;
+	height: auto;
+}
+
+#footer-list-left li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 .5em 0 .5em;
+	font-family: Myriad Pro;
+	color: #999999;
+	font-size: small;
+	border-right: 1px solid #999999;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.footer-left {
+	padding: 1.5em 0 0 0;
+	border-right: 1px solid #eeeeee;
+	max-width: 100%;
+	height: auto;
+
+}
+
+.footer-middle {
+	padding: 1.7em 0 0 0;
+	border-right: 1px solid #eeeeee;
+	color: #999999;
+	font-size: small;
+	font-family: Myriad Pro;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.logout {
+	padding: 1em 0 0 0;
+	border-right: 1px solid #eeeeee;
+	max-width: 100%;
+	height: auto;
+	
+	
+	
+}
+
+.logout-box {
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	box-shadow: 0 0 1em #e2e2e2;
+	height: 2.5em;
+	width: 2.5em;	
+}
+
+.social-rollovers {
+	border-right: 1px solid #eeeeee;
+	padding: 1.5em .5em 0 1em;
+	max-width: 100%;
+	height: auto;
+}
